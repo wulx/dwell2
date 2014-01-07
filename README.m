@@ -20,7 +20,7 @@ close all; clear all; clc
 
 %% rastering
 % test on rastering and stitching method
-rasterTest
+raster2Test
 
 
 %% ion beam current density distribution

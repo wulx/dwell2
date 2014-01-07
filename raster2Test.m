@@ -170,21 +170,18 @@ maxTunableRatio = leafWidth/vStroke;
 
 % storke time range:
 %   maxEtchTime <= strokeTime <= minEtchTime/(1-maxTunableRatio)
-strokeTimeRange = [maxEtchTimeG, minEtchTimeG/(1-maxTunableRatio)];
-
-if strokeTimeRange(1) <= strokeTimeRange(2)
+if maxEtchTimeG <= minEtchTimeG/(1-maxTunableRatio)
     etchTimeBase = meanEtchTimeG;
-    strokeTimeOpt = etchTimeBase / (1 - 0.5*maxTunableRatio);
     
-    if strokeTimeOpt>=strokeTimeRange(1) && strokeTimeOpt<=strokeTimeRange(2)
-        strokeTime = strokeTimeOpt;
-    else
+    if etchTimeBase<(1-0.5*maxTunableRatio)*maxEtchTimeG || ...
+            etchTimeBase>(1-0.5*maxTunableRatio)*minEtchTimeG/(1-maxTunableRatio)
         etchTimeBase = (minEtchTimeG + maxEtchTimeG) / 2;
-        strokeTime = etchTimeBase / (1 - 0.5*maxTunableRatio);
     end
+    
+    strokeTime = etchTimeBase / (1 - 0.5*maxTunableRatio);
+    elapsedTime = nTiers*strokeTime;
 end
 
-elapsedTime = nTiers*strokeTime;
 
 figure, hold on;
 plot(strips)
@@ -217,5 +214,5 @@ xlim([1 vStroke])
 maxDwellTime = maxTunableRatio * strokeTime;
 plot(maxDwellTime*ones(vStroke, 1), 'r:')
 
-% save('DWELL_TIME.mat', 'dwellTime', 'strokeTime', 'maxDwellTime', 'strkSet')
+% save('data/DWELL_TIME.mat', 'dwellTime', 'strokeTime', 'maxDwellTime', 'strkSet')
 
