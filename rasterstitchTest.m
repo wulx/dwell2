@@ -1,20 +1,35 @@
 %% test on rastering and stitching method
+% by wulx, 2014/5/23
 close all; clear all; clc
 
 
 %% load etch-depth map data
 load data/ETCH_DEPTH.mat
 
-z = depth; % in nm
 x = 0.5:399.5; % mm, 400 points in total
 y = 0.5:399.5; % mm
-figure, meshc(x, y, z);
-axis equal;
+z = depth; % in nm
 
+figure('Name','etch depth map (mesh)')
+meshc(x, y, z)
+axis ij
+view([-32.5000, 82.0000])
+
+% figure('Name','etch depth map (image)')
+% imshow( mat2gray(z) )
+% colormap jet
+% set(gca, 'Visible', 'on', 'XAxisLocation', 'top')
+
+depthFlipped = depth(end:-1:1, end:-1:1); % in nm
+
+figure('Name','flipped etch depth map')
+imshow( mat2gray(depthFlipped) )
+colormap jet
+set(gca, 'XDir', 'reverse', 'YDir', 'normal', 'Visible', 'on', 'YAxisLocation','right')
 
 %% shear, pad and divide projected area
 
-n = 2; % microsteps per full step, number of periods per ionBeamWidth
+n = 1; % microsteps per full step, number of periods per ionBeamWidth
 nTiers = 2*n;
 ionBeamWidth = 60; % mm @ionBeamWidth ------------------------------------@
 ionBeamWidth = round(ionBeamWidth/nTiers) * nTiers;
@@ -50,7 +65,7 @@ strkSet = struct('data', {}, ...
     'shear', {}, ...
     'mode', {});
 
-avgDepth = depth / nTiers;
+avgDepth = depthFlipped / nTiers; % use flipped depth map
 shx = halfPeriod / vStroke;
 
 % strokes: 1..nTiers, nTiers+1..nTotalStrks
@@ -91,7 +106,7 @@ for i = 1:n
         leftPadding2];
 end
 
-depthFitted = zeros(subHeight, subWidth);
+depthSup = zeros(subHeight, subWidth);
 
 for j = 1:nTiers
     % padding ------------------------------------------------------------%
@@ -126,6 +141,8 @@ for j = 1:nTiers
         end
     end
 
+    
+    %#TODO use etch rate vector to repace meanEtchRate
     strkSet(j).ribbons = ribbons / meanEtchRate;
     
     xform2 = [1, 0, 0; -strkSet(j).shear, 1, 0; 0, 0, 1];
@@ -141,18 +158,22 @@ for j = 1:nTiers
     strkSet(j).data = imtransform(rasterMap, tform2, 'nearest', 'FillValues', nan, ...
         'XData', xdata, 'YData', ydata);
     
-    figure, mesh(strkSet(j).data);
-    axis equal
+    data1 = strkSet(j).data;
+    figure, imshow(mat2gray(data1));
+    title([strkSet(j).mode ' STROKES'])
+    colormap jet
+    set(gca, 'XDir', 'reverse', 'YDir', 'normal', 'Visible', 'on', 'YAxisLocation', 'right')
     
-    depthFitted = depthFitted + strkSet(j).data;
+    depthSup = depthSup + strkSet(j).data;
 end
 
 
-r = rmse(depth, depthFitted);
+r = rmse(depthFlipped, depthSup);
 
-figure, mesh( depthFitted );
-axis equal
-title(['RMSE: ' num2str(r)])
+figure('Name', ['superposed depth map (RMSE: ' num2str(r) ')'])
+imshow( mat2gray(depthSup) )
+colormap jet
+set(gca, 'XDir', 'reverse', 'YDir', 'normal', 'Visible', 'on', 'YAxisLocation', 'right')
 
 
 %% convert depth map to time profiles
@@ -215,4 +236,5 @@ maxDwellTime = maxTunableRatio * strokeTime;
 plot(maxDwellTime*ones(vStroke, 1), 'r:')
 
 % save('data/DWELL_TIME.mat', 'dwellTime', 'strokeTime', 'maxDwellTime', 'strkSet')
+% disp('save as data/DWELL_TIME.mat')
 

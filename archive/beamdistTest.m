@@ -2,13 +2,13 @@
 close all; clear all; clc
 
 %% load etch-depth map data
-load data/ETCH_DEPTH.mat
-
-z = depth; % in nm
-x = 0.5:399.5; % mm, 400 points in total
-y = 0.5:399.5; % mm
-figure, meshc(x, y, z);
-axis equal;
+% load data/ETCH_DEPTH.mat
+% 
+% z = depth; % in nm
+% x = 0.5:399.5; % mm, 400 points in total
+% y = 0.5:399.5; % mm
+% figure, meshc(x, y, z);
+% axis equal;
 
 
 %% shear, pad and divide projected area

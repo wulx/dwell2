@@ -1,5 +1,24 @@
 %% trapzoidal motion profile
+% by wulx, last modified: 2014/5/23
+
+%% clean and add path
 close all; clear all; clc
+
+% add path: ./GenTraj/
+if isempty(strfind(path, 'GenTraj'))
+    folderExist = exist('GenTraj', 'dir');
+    if folderExist == 7 % folder
+        oldpath = addpath(fullfile(pwd, 'GenTraj'));
+    end
+end
+
+% add path: ./adjust_quiver_arrowhead_size/
+if isempty(strfind(path, 'adjust_quiver_arrowhead_size'))
+    folderExist = exist('adjust_quiver_arrowhead_size', 'dir');
+    if folderExist == 7 % folder
+        addpath(fullfile(pwd, 'adjust_quiver_arrowhead_size'));
+    end
+end
 
 %%
 % position, s
@@ -76,7 +95,5 @@ axis off
 adjust_quiver_arrowhead_size(hq1, 0.3);
 adjust_quiver_arrowhead_size(hq2, 0.3);
 
-
-
-
-
+% restore the old path
+path(oldpath);

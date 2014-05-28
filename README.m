@@ -18,16 +18,21 @@ close all; clear all; clc
 % height ==> etch depth
 
 
-%% rastering
-% test on rastering and stitching method
-raster2Test
+%% raster and stitch
+% Function: RASTERSTITCHTEST, RMSE
+% output: DWELL_TIME.mat
 
+rasterstitchTest
 
 %% ion beam current density distribution
-% Description of second code block
+% Function: BEAMDISTTEST, BEAMDIST
 
-beamdistTest
+% beamdistTest
 
-%%
+%% dwell time optimization using pattern search
+% Function: DWELLOPTDEMO, DWELLOPT, SPIS, FINDPOINTS, STEPTIME, STEP2WIDTH,
+%           TIMECOUNT
+
+dwelloptDemo
 
 
