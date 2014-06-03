@@ -22,24 +22,28 @@ meanEtchRate = 1;
 S1 = load('data/DWELL_TIME.mat', 'dwellTime', 'strokeTime', 'strkSet');
 strkSet = S1.strkSet;
 strokeTime = S1.strokeTime;
+dwellTime = S1.dwellTime;
 
-S2 = load('data/OPT_RESULT.mat', 'optDwellTime');
+S2 = load('data/OPT_RESULT.mat', 'optDwellTime', 'Rmses');
 optDwellTime = S2.optDwellTime;
+rmses = S2.Rmses;
 
 S3 = load('data/ETCH_DEPTH.mat', 'depth');
 etchDepth = S3.depth;
 
+S4 = load('data/ERROR_MODEL.mat', 'runDwellTime');
+runDwellTime = S4.runDwellTime;
+
 nTiers = numel(strkSet);
-depthSup = zeros(subHeight, subWidth);
-depthSup2 = depthSup;
+supDepth = zeros(subHeight, subWidth);
+optSupDepth = supDepth;
+runSupDepth = supDepth;
 
 nanPad = nan(size(strkSet(1).data));
 
 for i = 1:nTiers
-    strkSet(i).ribbons = strokeTime - optDwellTime(:, strkSet(i).indices);
-    ribbons = meanEtchRate * strkSet(i).ribbons;
-    
-    depthSup = depthSup + strkSet(i).data;
+    optRibbons = meanEtchRate * (strokeTime - optDwellTime(:, strkSet(i).indices));
+    runRibbons = meanEtchRate * (strokeTime - runDwellTime(:, strkSet(i).indices));
     
     % padding ------------------------------------------------------------%
     preLeft = round([strkSet(i).padding(1), strkSet(i).padding(4)]);
@@ -57,11 +61,13 @@ for i = 1:nTiers
     startIdx = 1:ionBeamWidth:shWidth;
     endIdx = [startIdx(2:end)-1, shWidth];
     
-    rasterMap = nan(shHeight, shWidth);
+    optRasterMap = nan(shHeight, shWidth);
+    runRasterMap = optRasterMap;
     
     for n = 1:strkSet(i).nStrks
         for r = 1:shHeight
-            rasterMap(r, startIdx(n):endIdx(n)) = ribbons(r, n);
+            optRasterMap(r, startIdx(n):endIdx(n)) = optRibbons(r, n);
+            runRasterMap(r, startIdx(n):endIdx(n)) = runRibbons(r, n);
         end
     end
     
@@ -75,33 +81,53 @@ for i = 1:nTiers
     
     ydata = strkSet(i).padding(1) + [1 subHeight];
     
-    strkSet(i).data = imtransform(rasterMap, tform2, 'nearest', 'FillValues', nan, ...
+    optData = imtransform(optRasterMap, tform2, 'nearest', 'FillValues', nan, ...
+        'XData', xdata, 'YData', ydata);
+    runData = imtransform(runRasterMap, tform2, 'nearest', 'FillValues', nan, ...
         'XData', xdata, 'YData', ydata);
     
-    depthSup2 = depthSup2 + strkSet(i).data;
+    supDepth = supDepth + strkSet(i).data;
+    optSupDepth = optSupDepth + optData;
+    runSupDepth = runSupDepth + runData;
     
 end
 
 meanDepth = mean(etchDepth(:));
-rmse1 = rmse(etchDepth, depthSup)/meanDepth;
-rmse2 = rmse(etchDepth, depthSup2)/meanDepth;
+rmse1 = rmse(etchDepth, supDepth)/meanDepth;
+rmse2 = rmse(etchDepth, optSupDepth)/meanDepth;
+rmse3 = rmse(etchDepth, runSupDepth)/meanDepth;
 
 figure
 
-subplot(1, 3, 1)
+subplot(2, 2, 1)
 imshow( mat2gray(etchDepth) )
 colormap jet
 % set(gca, 'XDir', 'reverse', 'YDir', 'normal', 'Visible', 'off', 'YAxisLocation', 'right')
 
-subplot(1, 3, 2)
-imshow( mat2gray(depthSup) )
+subplot(2, 2, 2)
+imshow( mat2gray(supDepth) )
 colormap jet
 set(gca, 'XDir', 'reverse', 'YDir', 'normal', 'Visible', 'off', 'YAxisLocation', 'right')
-title(['CV(RMSE): ' num2str(rmse1)])
+title(['sup CV(RMSE): ' num2str(rmse1)])
 
-subplot(1, 3, 3)
-imshow( mat2gray(depthSup2) )
+subplot(2, 2, 3)
+imshow( mat2gray(optSupDepth) )
 colormap jet
 set(gca, 'XDir', 'reverse', 'YDir', 'normal',  'YAxisLocation', 'right')
-title(['CV(RMSE): ' num2str(rmse2)])
+title(['opt CV(RMSE): ' num2str(rmse2)])
 
+subplot(2, 2, 4)
+imshow( mat2gray(runSupDepth) )
+colormap jet
+set(gca, 'XDir', 'reverse', 'YDir', 'normal',  'YAxisLocation', 'right')
+title(['run CV(RMSE): ' num2str(rmse3)])
+
+dwellTimeWithoutNan = dwellTime(~isnan(dwellTime));
+normalizedRmses = [rmses{:}] / (max(dwellTimeWithoutNan) - min(dwellTimeWithoutNan));
+
+disp('Normalized RMSE: (%)')
+disp(num2str(100*[rmses{1:8}], 3))
+disp(num2str(100*[rmses{9:16}], 3))
+
+
+% save('data/ERROR_MODEL.mat', 'supDepth', 'optSupDepth', 'runSupDepth', '-append')

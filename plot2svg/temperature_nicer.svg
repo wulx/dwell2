@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg preserveAspectRatio="xMinYMin meet" width="100%" height="100%" viewBox="0 0 525.000 393.750"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>Matlab Figure Converted by PLOT2SVG written by Juerg Schwizer</desc>
+  <g id="topgroup">
+  <rect x="0" y="0" width="525.000" height="393.750" fill="#ffffff" stroke="none" />
+  <g id ="ID000000">
+  <clipPath id="ID000001">
+    <rect x="68.250" y="29.531" width="378.000" height="281.531"/>
+  </clipPath>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="68.250,311.063 446.250,311.063 446.250,29.531 68.250,29.531 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="68.250,311.063 446.250,311.063 446.250,311.063 68.250,311.063 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="68.250,311.063 68.250,311.063 68.250,29.531 68.250,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="102.614,311.063 102.614,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="136.977,311.063 136.977,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="171.341,311.063 171.341,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="205.705,311.063 205.705,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="240.068,311.063 240.068,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="274.432,311.063 274.432,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="308.795,311.063 308.795,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="343.159,311.063 343.159,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="377.523,311.063 377.523,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="411.886,311.063 411.886,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,264.141 446.250,264.141 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,217.219 446.250,217.219 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,170.297 446.250,170.297 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,123.375 446.250,123.375 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,76.453 446.250,76.453 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="102.614,311.063 102.614,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="136.977,311.063 136.977,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="171.341,311.063 171.341,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="205.705,311.063 205.705,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="240.068,311.063 240.068,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="274.432,311.063 274.432,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="308.795,311.063 308.795,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="343.159,311.063 343.159,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="377.523,311.063 377.523,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="411.886,311.063 411.886,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,311.063 446.250,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,264.141 68.250,264.141 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,217.219 68.250,217.219 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,170.297 68.250,170.297 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,123.375 68.250,123.375 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,76.453 68.250,76.453 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="2.0,2.0" points="68.250,311.063 68.250,29.531 "/>
+    <g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000002">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000003" clip-path="url(#ID000001)" filter="url(#ID000002)">
+<rect x="56.250" y="17.531" width="402.000" height="305.531" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#0000ff" stroke-width="8.0pt" stroke-dasharray="none" points="68.250,245.372 102.614,232.234 136.977,193.758 171.341,150.590 205.705,102.729 240.068,72.699 274.432,57.684 308.795,58.623 343.159,91.468 377.523,141.205 411.886,199.388 446.250,234.111 "/>
+<g>
+</g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000004">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000005" clip-path="url(#ID000001)" filter="url(#ID000004)">
+<rect x="56.250" y="17.531" width="402.000" height="305.531" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#007f00" stroke-width="12.0pt" stroke-dasharray="none" points="68.250,268.833 102.614,259.448 136.977,229.418 171.341,192.819 205.705,149.651 240.068,118.683 274.432,103.668 308.795,105.545 343.159,134.636 377.523,175.928 411.886,224.726 446.250,255.695 "/>
+<g>
+</g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000006">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000007" clip-path="url(#ID000001)" filter="url(#ID000006)">
+<rect x="56.250" y="17.531" width="402.000" height="305.531" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#ff0000" stroke-width="8.0pt" stroke-dasharray="none" points="68.250,292.294 102.614,287.602 136.977,264.141 171.341,235.988 205.705,195.635 240.068,164.666 274.432,148.713 308.795,151.528 343.159,176.866 377.523,210.650 411.886,249.126 446.250,278.217 "/>
+<g>
+</g>
+</g>
+<g id="ID000008" >
+</g>
+<g id="ID000009" >
+  <g transform="translate(32.140,171.705)">
+    <g transform="rotate(-90.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" font-size="15pt" fill="#000000" >T [°C]</text>
+    </g>
+  </g>
+</g>
+<g id="ID000010" >
+  <g transform="translate(257.250,15.928)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" font-size="15pt" fill="#000000" >Temperature in Germany (1961-1990)</text>
+    </g>
+  </g>
+</g>
+<g id="ID000011" >
+</g>
+<g id="ID000012" >
+</g>
+    </g>
+    <g>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="102.614,311.063 102.614,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="136.977,311.063 136.977,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="171.341,311.063 171.341,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="205.705,311.063 205.705,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="240.068,311.063 240.068,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="274.432,311.063 274.432,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="308.795,311.063 308.795,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="343.159,311.063 343.159,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="377.523,311.063 377.523,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="411.886,311.063 411.886,307.283 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,311.063 446.250,311.063 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="102.614,29.531 102.614,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="136.977,29.531 136.977,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="171.341,29.531 171.341,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="205.705,29.531 205.705,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="240.068,29.531 240.068,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="274.432,29.531 274.432,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="308.795,29.531 308.795,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="343.159,29.531 343.159,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="377.523,29.531 377.523,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="411.886,29.531 411.886,33.311 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,29.531 446.250,29.531 "/>
+  <g transform="translate(56.873,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Januar</text>
+    </g>
+  </g>
+  <g transform="translate(91.236,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Februar</text>
+    </g>
+  </g>
+  <g transform="translate(125.600,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >March</text>
+    </g>
+  </g>
+  <g transform="translate(159.964,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >April</text>
+    </g>
+  </g>
+  <g transform="translate(194.327,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >May</text>
+    </g>
+  </g>
+  <g transform="translate(228.691,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >June</text>
+    </g>
+  </g>
+  <g transform="translate(263.054,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >July</text>
+    </g>
+  </g>
+  <g transform="translate(297.418,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >August</text>
+    </g>
+  </g>
+  <g transform="translate(331.782,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >September</text>
+    </g>
+  </g>
+  <g transform="translate(366.145,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Oktober</text>
+    </g>
+  </g>
+  <g transform="translate(400.509,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >November</text>
+    </g>
+  </g>
+  <g transform="translate(434.873,330.252)">
+    <g transform="rotate(40.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >December</text>
+    </g>
+  </g>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,264.141 72.030,264.141 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,217.219 72.030,217.219 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,170.297 72.030,170.297 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,123.375 72.030,123.375 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,76.453 72.030,76.453 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,311.063 68.250,29.531 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,264.141 442.470,264.141 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,217.219 442.470,217.219 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,170.297 442.470,170.297 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,123.375 442.470,123.375 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,76.453 442.470,76.453 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="446.250,311.063 446.250,29.531 "/>
+  <g transform="translate(60.690,317.813)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >-5</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,270.891)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >0</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,223.969)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >5</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,177.047)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >10</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,130.125)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >15</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,83.203)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >20</text>
+    </g>
+  </g>
+  <g transform="translate(60.690,36.281)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" font-size="15pt" fill="#000000" >25</text>
+    </g>
+  </g>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,311.063 68.250,308.247 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" points="68.250,311.063 68.250,311.063 "/>
+    </g>
+  </g>
+  <g id ="ID000013">
+  <clipPath id="ID000014">
+    <rect x="327.969" y="38.594" width="111.562" height="82.188"/>
+  </clipPath>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="0.5pt" stroke-opacity="1.00" stroke-dasharray="none" points="327.969,120.781 439.531,120.781 439.531,38.594 327.969,38.594 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="0.5pt" stroke-opacity="1.00" stroke-dasharray="none" points="327.969,38.594 439.531,38.594 439.531,38.594 327.969,38.594 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="0.5pt" stroke-opacity="1.00" stroke-dasharray="none" points="327.969,120.781 327.969,120.781 327.969,38.594 327.969,38.594 "/>
+    <g>
+<g id="ID000015" >
+  <g transform="translate(376.250,61.688)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Max T</text>
+    </g>
+  </g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000016">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000017" clip-path="url(#ID000014)" filter="url(#ID000016)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#0000ff" stroke-width="8.0pt" stroke-dasharray="none" points="335.469,53.750 372.969,53.750 "/>
+<g>
+</g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000018">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000019" clip-path="url(#ID000014)" filter="url(#ID000018)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+<g>
+</g>
+</g>
+<g id="ID000020" >
+  <g transform="translate(376.250,88.772)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Avg T</text>
+    </g>
+  </g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000021">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000022" clip-path="url(#ID000014)" filter="url(#ID000021)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#007f00" stroke-width="12.0pt" stroke-dasharray="none" points="335.469,79.688 372.969,79.688 "/>
+<g>
+</g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000023">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000024" clip-path="url(#ID000014)" filter="url(#ID000023)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+<g>
+</g>
+</g>
+<g id="ID000025" >
+  <g transform="translate(376.250,114.923)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="start" font-size="15pt" fill="#000000" >Min T</text>
+    </g>
+  </g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000026">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000027" clip-path="url(#ID000014)" filter="url(#ID000026)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+      <polyline fill="none" stroke="#ff0000" stroke-width="8.0pt" stroke-dasharray="none" points="335.469,105.625 372.969,105.625 "/>
+<g>
+</g>
+</g>
+<defs>
+  <filter x="0.000%" y="0.000%" width="100.000%" height="100.000%" id="ID000028">
+  <feGaussianBlur result="blur" in="SourceAlpha" stdDeviation="2.000" />
+  <feSpecularLighting result="lighting" specularConstant="1.000" specularExponent="16.000" surfaceScale="2.000" style="lighting-color:white" in="blur" >
+ <feDistantLight azimuth="225.000" elevation="45.000" />
+</feSpecularLighting>
+  <feComposite result="obj" in="lighting" in2="SourceGraphic" operator="atop" />
+  <feGaussianBlur result="blur2" in="SourceAlpha" stdDeviation="5.000" />
+  <feOffset result="shade" in="blur2" dx="8.000" dy="7.000" />
+  <feComposite result="final" in="obj" in2="shade" operator="over" />
+  </filter>
+</defs>
+<g id="ID000029" clip-path="url(#ID000014)" filter="url(#ID000028)">
+<rect x="315.969" y="26.594" width="135.562" height="106.188" fill="none" stroke="none" />
+<g>
+</g>
+</g>
+<g id="ID000030" >
+</g>
+<g id="ID000031" >
+</g>
+<g id="ID000032" >
+</g>
+    </g>
+    <g>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="327.969,120.781 439.531,120.781 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="327.969,38.594 439.531,38.594 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="327.969,120.781 327.969,38.594 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="439.531,120.781 439.531,38.594 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="327.969,120.781 327.969,119.959 "/>
+      <polyline fill="none" stroke="#000000" stroke-width="0.5pt" stroke-dasharray="none" points="327.969,120.781 327.969,120.781 "/>
+    </g>
+  </g>
+  </g>
+</svg>
