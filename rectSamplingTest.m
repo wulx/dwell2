@@ -51,8 +51,24 @@ figure, imshow( mat2gray(revisedRectMask) );
 figure, imshow(mat2gray(sampDepth), 'colormap', [jet; 0 0 0]);
 
 
+depthCell = mat2cell(depth, rowDist, colDist);
 
+sampCell = depthCell(5:10:50, 5:10:50);
 
+minDepth = cellfun(@(c) min(c(:)), sampCell);
+maxDepth = cellfun(@(c) max(c(:)), sampCell);
+
+% MeasDepth = [696 653 638 686 654; 581 736 623 646 590];
+% 
+% figure, hold on
+% plot(minDepth(1, [1 2 3 4]), 'b-')
+% plot(maxDepth(1, [1 2 3 4]), 'r-')
+% plot(MeasDepth(1, [1 2 3 4])/20, 'k-')
+% 
+% figure, hold on
+% plot(minDepth(2, 3:4), 'b-')
+% plot(maxDepth(2, 3:4), 'r-')
+% plot(MeasDepth(2, 3:4)/20, 'k-')
 
 
 

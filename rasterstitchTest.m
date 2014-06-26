@@ -235,6 +235,8 @@ xlim([1 vStroke])
 maxDwellTime = maxTunableRatio * strokeTime;
 plot(maxDwellTime*ones(vStroke, 1), 'r:')
 
+figure, contour(dwellTime)
+
 % save('data/DWELL_TIME.mat', 'dwellTime', 'strokeTime', 'maxDwellTime', 'strkSet')
 % disp('save as data/DWELL_TIME.mat')
 
